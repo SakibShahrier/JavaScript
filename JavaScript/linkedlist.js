@@ -29,7 +29,9 @@ for(let i = 1; i <= 10; ++i){
 
 temp = head;
 
-for( ;temp.next !== null; ){
+for( ; 1 ; ){
   console.log(temp.value);
+  if(temp.next === null)
+    break;
   temp = temp.next;
 }
